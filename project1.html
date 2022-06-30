@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM study</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat+Alternates:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/project1.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Montserrat Alternates', sans-serif; ;
+        color: azure;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg3.jpg');
+
+        height: 5656px;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid brown; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+
+    }
+    .left img{
+        width: 133px;
+        /* filter:invert(100%) --->css function to convert clack image white and white image black */
+    }
+    .left div{
+         line-height: 19px ;
+         font-size: 26px;
+         text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 43%;
+        margin: 29px auto;
+        /* border: 2px solid brown; */
+
+    }
+
+    .right {
+        display: inline-block;
+        /* sets position relative to parent ie body in this case */
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        /* border: 2px solid brown; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+
+    }
+
+    .navbar li a {
+        color: azure;
+        text-decoration: none;
+        padding: 30px 20px;
+        
+    }
+    /* , acts like or stmt. if te tag is hovered o if ckass is active */
+    .navbar li a:hover,.navbar li a.active{
+
+        text-decoration: underline;
+        color: rgb(223, 151, 151);
+    } 
+    .btn{
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin: 0px 9px;
+        background-color:rgba(235, 222, 164, 0.541) ;
+        color: azure;
+        padding: 4px 14px ;
+        border: 2px solid whitesmoke ;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    } 
+    .btn:hover{
+    background-color: rgb(90, 4, 4);
+
+
+    }
+    .container{
+        border: 2px solid rgba(245, 243, 243, 0.842);
+        margin: 106px 80px;
+        padding: 75px ;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 548px ;
+        padding: 1px;
+        border: 2px solid rgb(58, 57, 57);
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        font-family: 'Montserrat Alternates', sans-serif;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 110%;
+        margin: 20px auto;
+
+    }
+        
+</style>
+
+<body>
+    <header class="header">
+        <!-- lest for logo -->
+     
+
+        <div class="left">
+            <img src="img/logowebdev2.jpg" alt="">
+     <div>SM study</div>
+
+
+
+            </ul>
+
+        </div>
+        <!-- mid for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Study </a> </li>
+                <li><a href="#">About us </a> </li>
+                <li> <a href="#">Contact</a></li>
+
+
+
+        </div>
+        <!-- rigth for button -->
+        <div class="right"> 
+             <button class="btn">call us</button>
+            <button class="btn">email us</button>
+        </div>
+
+
+
+
+    </header>
+    <div class="container"> 
+    <h1>
+        join the SM study group now!!!
+    
+    
+    <form action="noaction.php"> 
+     <!-- noaction.php is not a protocall//note we need bckend to fill the dform .sio we cannot filll the form now we only assume that some  backend likr no action .php exists to accept filled form responses -->
+     <div class="form-group">
+         <input type="text" name="" placeholder="Enter your Name">
+     </div>
+     <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Age">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Standard">
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Course">
+    </div>
+    <button class="btn">Submit</button>
+    </form>
+</h1>
+</div>
+<body>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
